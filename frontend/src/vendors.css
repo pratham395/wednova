@@ -1,0 +1,61 @@
+.vendors-page {
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+  background: #fff7fa;
+}
+
+.vendors-page h1 {
+  color: #d95780;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.vendors-page > p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.vendors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.vendor-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.vendor-icon {
+  font-size: 45px;
+}
+
+.vendor-card h2 {
+  color: #d95780;
+  margin: 15px 0;
+}
+
+.vendor-card p {
+  color: #555;
+}
+
+.vendor-card button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background: #d95780;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.vendor-card button:hover {
+  background: #c7436d;
+}

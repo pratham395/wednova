@@ -1,0 +1,131 @@
+/* AUTH PAGE */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff8f8;
+  padding: 40px 20px;
+}
+
+/* CARD */
+
+.auth-card {
+  width: 420px;
+  background: white;
+  padding: 45px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(80, 40, 50, 0.12);
+  text-align: center;
+}
+
+/* LOGO */
+
+.brand-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  background: #f8e7ed;
+
+  font-size: 25px;
+}
+
+/* HEADING */
+
+.auth-card h1 {
+  margin: 0 0 10px;
+  font-size: 38px;
+  color: #3d2730;
+  font-family: Georgia, serif;
+}
+
+.auth-card > p {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+/* FORM */
+
+form {
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #49343c;
+}
+
+.form-group input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 13px 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  font-size: 15px;
+  outline: none;
+
+  background: #fff;
+  color: #333;
+}
+
+.form-group input:focus {
+  border-color: #d96b8b;
+  box-shadow: 0 0 0 3px rgba(217, 107, 139, 0.1);
+}
+
+/* BUTTON */
+
+.auth-card button {
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #d96b8b;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.auth-card button:hover {
+  background: #c85d7c;
+}
+
+/* REGISTER LINK */
+
+.switch-text {
+  margin-top: 25px;
+  color: #777;
+}
+
+.switch-text a {
+  color: #d96b8b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}

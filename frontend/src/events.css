@@ -1,0 +1,179 @@
+.events-page {
+    min-height: 100vh;
+    padding: 50px;
+    background: #fff8fa;
+    font-family: Arial, sans-serif;
+}
+
+.events-header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.events-header h1 {
+    color: #d85882;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.events-header p {
+    color: #765866;
+    font-size: 18px;
+}
+
+/* Form */
+
+.event-form-card {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.event-form-card h2 {
+    color: #d85882;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    color: #5d4350;
+    font-weight: bold;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #e7cbd5;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #d85882;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.add-event-btn {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background: #d85882;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-event-btn:hover {
+    background: #c74772;
+}
+
+/* Events */
+
+.events-list {
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+.events-list > h2 {
+    text-align: center;
+    color: #5d4350;
+    margin-bottom: 25px;
+}
+
+.no-events {
+    text-align: center;
+    background: white;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.no-events div {
+    font-size: 50px;
+}
+
+.no-events h3 {
+    color: #d85882;
+}
+
+.no-events p {
+    color: #765866;
+}
+
+/* Event Cards */
+
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.event-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    border: 1px solid #f0d9e1;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+}
+
+.event-icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.event-card h3 {
+    color: #d85882;
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+
+.event-card p {
+    color: #684f5b;
+    margin: 10px 0;
+}
+
+.delete-event-btn {
+    margin-top: 15px;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #e85d75;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-event-btn:hover {
+    background: #d6455d;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+    .events-page {
+        padding: 25px;
+    }
+
+    .event-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}

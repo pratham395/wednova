@@ -1,0 +1,116 @@
+.guests-page {
+  min-height: 100vh;
+  padding: 50px 8%;
+  background: #fff7fa;
+  text-align: center;
+}
+
+.guests-page h1 {
+  font-size: 42px;
+  color: #d6537d;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #765b67;
+  margin-bottom: 35px;
+}
+
+.guest-form-card {
+  max-width: 650px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.guest-form-card h2 {
+  text-align: center;
+  color: #d6537d;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #49343d;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.add-guest-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #d6537d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-guest-btn:hover {
+  background: #c6426d;
+}
+
+.your-guests {
+  margin-top: 50px;
+  color: #49343d;
+}
+
+.guest-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.no-guests {
+  color: #765b67;
+}
+
+.guest-card {
+  width: 280px;
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.guest-card h3 {
+  color: #d6537d;
+  margin-bottom: 15px;
+}
+
+.guest-card p {
+  color: #5f4b54;
+  margin: 10px 0;
+}
+
+.delete-guest-btn {
+  margin-top: 10px;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #e85d75;
+  color: white;
+  cursor: pointer;
+}
